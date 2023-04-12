@@ -53,14 +53,33 @@ const Header = ()=> {
              </div>
 
            </div>
+           <div className='wraps'>
+            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, iusto?</h1>
+            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, iusto?</h1>
+
+            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, iusto?</h1>
+
+            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, iusto?</h1>
+
+
+            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, iusto?</h1>
+
+
+
+
+            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, iusto?</h1>
+
+
+
+           </div>
+
 
         </div>
 
 
                
             </div>
-
-
+         
         </div>
         </BrowserRouter>
        
