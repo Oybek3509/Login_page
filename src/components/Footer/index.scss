@@ -1,0 +1,20 @@
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #dc7777;
+    color: azure important;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+}
