@@ -3,12 +3,19 @@ import "./index.scss";
 import logo from "../../assets/images/Logo.svg";
 import admin from "../../assets/images/man.png";
 import home from "../../assets/images/uy.svg";
+import back from '../../assets/images/back.svg';
+import ball from '../../assets/images/bell.svg';
+import { BrowserRouter } from 'react-router-dom';
 
-
-function Header() {
+const Header = ()=> {
     return (
-        <>
+        
+        <BrowserRouter>
+        
+        
+       
         <div className="site_container">
+            <div className='d-flex'>
             <div className='site_wrapper'>
            <div className='site_bar'>
                 <img className='site_logo' src={logo}  width={220} height={24}/>
@@ -32,8 +39,31 @@ function Header() {
             </div>
 
 
+
+
+
+
+
+            <div className='site-header'>
+           <div className='site-header-wrap'>
+             <button className='back-btn'><img src={back} alt="" /></button>
+             <div className='site-header-input'>
+                <input className='header-input' type="search" placeholder='Search...'/>
+                <button><img src={ball}  /></button>
+             </div>
+
+           </div>
+
         </div>
-        </>
+
+
+               
+            </div>
+
+
+        </div>
+        </BrowserRouter>
+       
     );
 }
 

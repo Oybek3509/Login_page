@@ -180,3 +180,38 @@
         border-radius: 5px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+.back-btn{
+    border: none;
+    background-color: #fff;
+    padding: 21px 30px;
+
+}
+.site-header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-input{
+    width: 217px;
+    border: 1px solid #C4C4C4;
+    padding: 5px 13px;
+    border-radius: 8px;
+    margin-right: 27px;
+}
+.site-header-input button {
+    border: none;
+    background-color: #fff;
+}
+.site-header{
+    width: 1170px;
+}
