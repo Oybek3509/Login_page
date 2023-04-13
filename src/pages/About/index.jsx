@@ -1,5 +1,9 @@
 import React from 'react';
 import "./index.scss";
+import sort from '../../assets/images/sort.svg';
+import person from '../../assets/images/qora.png';
+import pen from '../../assets/images/pen 1.svg';
+import del from '../../assets/images/musir.svg';
 const index = () => {
     return (
         <div>
@@ -26,6 +30,24 @@ const index = () => {
                             </tr>
                         </thead>
                         <tbody className='card__table--body'>
+                            <tr className='card__body-row'>
+                                <td className='card__body-img'><img src={person} alt="person image" /></td>
+                                <td className='card__body-text'>Karthi</td>
+                                <td className='card__body-text'>karthi@gmmail.com</td>
+                                <td className='card__body-text'>7305477760</td>
+                                <td className='card__body-text'>1234567305477760</td>
+                                <td className='card__body-text'>08-Dec, 2021</td>
+                                <td className='card__body-icon'><img src={pen} alt="pen icon" /> <img src={del} alt="delete icon" /></td>
+                            </tr>
+                            <tr className='card__body-row'>
+                                <td className='card__body-img'><img src={person} alt="person image" /></td>
+                                <td className='card__body-text'>Karthi</td>
+                                <td className='card__body-text'>karthi@gmmail.com</td>
+                                <td className='card__body-text'>7305477760</td>
+                                <td className='card__body-text'>1234567305477760</td>
+                                <td className='card__body-text'>08-Dec, 2021</td>
+                                <td className='card__body-icon'><img src={pen} alt="pen icon" /> <img src={del} alt="delete icon" /></td>
+                            </tr>
                             <tr className='card__body-row'>
                                 <td className='card__body-img'><img src={person} alt="person image" /></td>
                                 <td className='card__body-text'>Karthi</td>

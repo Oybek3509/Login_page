@@ -1,10 +1,50 @@
-.card{
+.card1{
     width: 255px;
     min-height: 157px;
     background-color: #F0F9FF;
    padding: 20px;
+   border-radius:8px;
+
     
 }
+.card1 img{
+    margin-bottom: 20px;
+}
+.card2 img{
+    margin-bottom: 20px;
+}
+.card3 img{
+    margin-bottom: 20px;
+}
+.card4 img{
+    margin-bottom: 20px;
+}
+
+.card2{
+    width: 255px;
+    min-height: 157px;
+    background-color:  #FEF6FB;
+   padding: 20px;
+   border-radius:8px;
+    
+}
+.card3{
+    width: 255px;
+    min-height: 157px;
+    background-color:  #FEFBEC;
+   padding: 20px;
+   border-radius:8px;
+    
+}
+.card4{
+    width: 255px;
+    min-height: 157px;
+    background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+   padding: 20px;
+   border-radius:8px;
+    
+}
+
 .card img{
     margin-bottom: 15px;
     font-size: 14px;

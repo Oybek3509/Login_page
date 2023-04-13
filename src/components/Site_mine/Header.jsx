@@ -5,12 +5,17 @@ import admin from "../../assets/images/man.png";
 import home from "../../assets/images/uy.svg";
 import back from '../../assets/images/back.svg';
 import ball from '../../assets/images/bell.svg';
-import { BrowserRouter } from 'react-router-dom';
+import Card from '../Card/Card';
+import About from '../../pages/About/index';
+import Payment from '../../pages/Payments/index';
+import Error from '../../pages/Error/index';
+import { Route,Routes } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = ()=> {
     return (
         
-        <BrowserRouter>
+        
         
         
        
@@ -24,12 +29,14 @@ const Header = ()=> {
                    <h2>Karthi Madesh</h2>
                     <p>Admin</p>
                     <ul className='site-bar-list'>
-                        <li> Home</li>
-                        <li>Course</li>
-                        <li>Students</li>
-                        <li>Payment</li>
-                        <li>Report</li>
-                        <li>Settings</li>
+                        <li> <NavLink className='site-bar-link1' to="/"> Home</NavLink></li>
+                        <li> <a className='site-bar-link2'> Course</a></li>
+                        <li> <NavLink className='site-bar-link3' to="/students"> Students</NavLink></li>
+                        <li> <NavLink className='site-bar-link4' to="payment"> Payment</NavLink></li>
+                        <li> <a className='site-bar-link5'> Report</a></li>
+                        <li> <a className='site-bar-link6'> Settings</a></li>
+                       
+                       
                     </ul>
                     <button>Logout</button>
            </div>
@@ -53,24 +60,16 @@ const Header = ()=> {
              </div>
 
            </div>
+
            <div className='wraps'>
-            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, iusto?</h1>
-            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, iusto?</h1>
-
-            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, iusto?</h1>
-
-            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, iusto?</h1>
-
-
-            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, iusto?</h1>
-
-
-
-
-            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, iusto?</h1>
-
-
-
+            <Routes>
+             <Route path='/' element={<Card/>}/>
+             <Route path='/students' element={<About/>}/>
+             <Route path='/payment' element={<Payment/>}/>
+             <Route path='*' element={<Error/>}/>
+                
+                
+            </Routes> 
            </div>
 
 
@@ -81,7 +80,7 @@ const Header = ()=> {
             </div>
          
         </div>
-        </BrowserRouter>
+        
        
     );
 }

@@ -66,3 +66,255 @@ img{
     display: flex;
     justify-content: space-between;
 } */
+
+
+
+
+
+
+
+
+
+.site_container {
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.site_wrapper {
+    display: flex;
+}
+
+.site_bar {
+    width: 270px;
+    background-color: #F2EAE1;
+}
+
+.site_logo {
+    margin-top: 18px;
+    margin-left: 18px;
+    margin-bottom: 54px;
+}
+
+.site-admin-logo {
+    overflow: hidden;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.site_bar h2 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+
+
+}
+
+.site_bar p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #FEAF00;
+    margin-bottom: 80px;
+
+
+}
+
+.site-bar-list {
+    /* text-align: center; */
+     /* margin-left: 45px; */
+     margin: 0 auto;;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 20px;
+    list-style: none;
+    margin-bottom: 130px;
+}
+.site-bar-list li{
+    margin: 0 auto;
+}
+/* .site-bar-link{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    padding: 11px 74px; 
+   
+} */
+.site-bar-link:hover{
+    background-color: #FEAF00;
+        border-radius: 5px;
+}
+
+.active{
+    background-color: #FEAF00;
+    border-radius: 5px;
+}
+.site-bar-link1{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding: 11px 83px; 
+}
+.site-bar-link2{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding: 11px 79px; 
+    background-color: #fadda0;
+    border-radius: 5px;
+}
+.site-bar-link2:hover{
+    color: #000;
+}
+.site-bar-link5:hover{
+    color: #000;
+}
+.site-bar-link6:hover{
+    color: #000;
+}
+.site-bar-link1:hover{
+    color: #000;
+}
+.site-bar-link4:hover{
+    color: #000;
+}
+.site-bar-link3:hover{
+    color: #000;
+}
+.site-bar-link3{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding: 11px 74px; 
+}
+.site-bar-link4{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding: 11px 74px; 
+}
+.site-bar-link4{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding: 11px 74px; 
+}
+.site-bar-link5{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding: 11px 79px; 
+    background-color: #fadda0;
+    border-radius: 5px;
+}
+.site-bar-link6{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding: 11px 75px; 
+    background-color: #fadda0;
+    border-radius: 5px;
+}
+
+
+.site_bar button {
+    display:block;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 auto;
+    padding: 11px 74px;
+    background-color: #F2EAE1;
+    margin-bottom: 20px;
+    
+   
+}
+.site_bar button:hover {
+    background-color: #FEAF00;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.back-btn{
+    border: none;
+    background-color: #fff;
+    padding: 21px 30px;
+
+}
+.site-header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-input{
+    width: 217px;
+    border: 1px solid #C4C4C4;
+    padding: 5px 13px;
+    border-radius: 8px;
+    margin-right: 27px;
+}
+.site-header-input button {
+    border: none;
+    background-color: #fff;
+}
+.site-header{
+    width: 1170px;
+}
+
+
+.wraps{
+    margin-top: 20px;
+    margin-left: 30px;
+}
