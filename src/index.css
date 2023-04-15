@@ -5,6 +5,9 @@
     font-family: sans-serif;
     
 }
+.bigwrap{
+    height: 100vh;
+}
 p{
     margin: 0;
     padding: 0;

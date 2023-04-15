@@ -46,7 +46,7 @@ const Header = ({ setMode, setLang }) => {
     return (
 
 
-        <div style={headerStyle}>
+        <div className='bigwrap' style={headerStyle}>
 
 
 
