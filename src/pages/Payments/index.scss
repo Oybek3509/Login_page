@@ -37,9 +37,11 @@
         .card {
            &__table--head{
         background-color: #ffffff;
+        padding-left: 10px;
            }
             &__table-wrapper {
                 width: 100%;
+                padding-left: 10px;
                 // border-collapse: separate;
                 // border-spacing: 0 10px;
             }
@@ -65,8 +67,11 @@
             }
 
             &__body-row {
+                // overflow: hidden;
                 // border-radius: 10px;
                 background: #FFFFFF;
+                margin-left: 20px;
+                border-radius: 10px;
             }
 
             &__body-img {
@@ -84,9 +89,9 @@
             }
 
             &__body-icon {
-                border-bottom-right-radius: 5px;
-                border-top-right-radius: 5px;
-
+                // border-bottom-right-radius: 5px;
+                // border-top-right-radius: 5px;
+               border: none;
                 :nth-child(2) {
                     margin-left: 33px;
                 }
@@ -94,4 +99,7 @@
             }
         }
     }
+}
+td{
+    border: none;
 }
